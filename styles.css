@@ -1,0 +1,93 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to right, #913994, #EF429C);
+}
+.wrapper{
+    width: 30%;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 30px;
+}
+.wrapper .form-header{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.wrapper .form-btns{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+.wrapper .form-btns button{
+    width: 50%;
+    height: 50px;
+}
+.wrapper .form-btns button:nth-child(1){
+    background: linear-gradient(to right, #AB44AF, #EF429C);
+    border: 1px solid #EF429C;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.wrapper .form-btns button:nth-child(2){
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.wrapper .input{
+    width: 92%;
+    margin:  0 auto;
+    padding: 20px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.wrapper .input::placeholder{
+    font-size: 20px;
+}
+.wrapper .input[type="text"]{
+    margin-bottom: 30px;
+}
+.wrapper a{
+    padding: 15px 0;
+    color: #E690E6;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.wrapper .login-btn{
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    border: none;
+    background: linear-gradient(to right, #AB44AF, #EF429C);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.wrapper .para{
+    text-align: center;
+    margin: 20px 0;
+}
+.wrapper .para .sign-up-now{
+    color: #E690E6;
+}
